@@ -220,7 +220,7 @@ def perform_train():
     batchsize = 256
     learningrate = 1e-4
     epochs = 40
-    train, val = read_data('/Workspace/yuebi/aim3/miRAW_Train_Validation.txt')
+    train, val = read_data('miRAW_Train_Validation.txt')
 
     train_dataset = myDataset(train)
     val_dataset = myDataset(val)
@@ -318,7 +318,7 @@ def perform_test(pathfile,stepsize):
     test = read_test(pathfile)
     y_true = []
     y_pred = []
-    model = torch.load('/Workspace/yuebi/aim3/model_mimo_35.pth')
+    model = torch.load('model.pth')
 
     print('个数',len(test))
 
@@ -364,28 +364,12 @@ def perform_test(pathfile,stepsize):
 
 
 perform_train()
-# perform_test('/Workspace/yuebi/aim3/miRAW_Test0.txt', stepsize=1)
+# perform_test('miRAW_Test0.txt', stepsize=1)
 
 
 
 
 
-
-
-
-
-
-
-# check_length('miRAW_Test0.txt')
-# check_length('miRAW_Test1.txt')
-# check_length('miRAW_Test2.txt')
-# check_length('miRAW_Test3.txt')
-# check_length('miRAW_Test4.txt')
-# check_length('miRAW_Test5.txt')
-# check_length('miRAW_Test6.txt')
-# check_length('miRAW_Test7.txt')
-# check_length('miRAW_Test8.txt')
-# check_length('miRAW_Test9.txt')
 
 
 
