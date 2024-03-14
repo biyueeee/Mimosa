@@ -364,7 +364,7 @@ def perform_test(pathfile,stepsize):
 
 
 perform_train()
-# perform_test('miRAW_Test0.txt', stepsize=1)
+# perform_test('miRAW_Test0.txt', stepsize=5)
 
 
 
