@@ -12,4 +12,3 @@ Specifically, the value of the gap penalty has been incorrectly stated as -1 and
 
 
 
-We recognize that this may lead to confusion for our readers, and we sincerely apologize for any misunderstandings this error may have caused!
