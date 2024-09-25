@@ -12,8 +12,6 @@ This repository contains code and data for Mimosa, a tool designed to recognize 
 ## Online
 Users can explore Mimosa in this repository or access Mimosa via the online web server at: http://monash.bioweb.cloud.edu.au/Mimosa/.
 
-## Correction
-We have identified and corrected an issue in the supplementary materials of our paper. For more details, please refer to [CORRECTION.md](./CORRECTION.md).
 
 ## Copyright
 This project is free to use for non-commercial purposes.
